@@ -45,7 +45,9 @@ Future<void> scheduleTaskNotification(Task task) async {
     }
 
     // Generate a unique ID for each notification
-    int notificationId = DateTime.now().millisecondsSinceEpoch;
+   // int notificationId = DateTime.now().millisecondsSinceEpoch;
+     int notificationId =  DateTime.now().millisecondsSinceEpoch % 2147483647; // 2^31 - 1
+
 
     await flutterLocalNotificationsPlugin.zonedSchedule(
       notificationId, // Unique ID
