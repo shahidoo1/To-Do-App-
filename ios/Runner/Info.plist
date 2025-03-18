@@ -45,5 +45,14 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocalNotificationAlertStyle</key>
+	<string>alert</string>
+	<key>NSLocalNotificationUsageDescription</key>
+	<string>We need to send you notifications</string>
+	<key>UIBackgroundModes</key>
+	<array>
+	<string>fetch</string>
+	<string>remote-notification</string>
+	</array>
 </dict>
 </plist>
