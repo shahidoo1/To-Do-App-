@@ -1,0 +1,2 @@
+/Users/mac/Desktop/To-Do-App-/android/app/.cxx/Debug/5ml5m541/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/mac/Desktop/To-Do-App-/android/app/.cxx/Debug/5ml5m541/armeabi-v7a/CMakeFiles/rebuild_cache.dir
